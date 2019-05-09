@@ -9,11 +9,13 @@ public class Lonxitudes {
         int menu = 0;
         double km, millas, pulgada;
         do {
+        System.out.println("");
         System.out.println("Que opcion quieres?");
         System.out.println("1. km a millas");
                System.out.println("2. millas a km");
                System.out.println("3. millas a pulgadas");
                System.out.println("4. pulgadas a millas");
+               System.out.println("5. salir del programa");
                menu=leer.nextInt();
                
             
