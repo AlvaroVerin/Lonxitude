@@ -26,7 +26,10 @@ public class Lonxitudes {
             System.out.println("Son "+millas+" millas");
         }
         if (menu==2) {
-            
+          System.out.println("Cuantas millas son?");
+            millas=leer.nextInt();
+            km= millas*1.60934;
+            System.out.println("Son "+km+" km");
         }
         if (menu==3) {
             
